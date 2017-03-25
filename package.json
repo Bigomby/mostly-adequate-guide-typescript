@@ -1,0 +1,22 @@
+{
+  "name": "mostly-adequate-guide-typescript",
+  "version": "0.1.0",
+  "description": "Exercises from mostly-adequate-guide ported to Typescript",
+  "scripts": {
+    "tests": "node_modules/.bin/gulp build; node_modules/.bin/gulp test",
+    "feedback": "mocha dist/exercises/curry/curry_exercises_spec.js -w",
+    "build": "node_modules/.bin/gulp build"
+  },
+  "author": "Diego Fernández Barrera",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "ramda": "^0.23.0",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.40",
+    "chai": "^3.5.0"
+  }
+}
